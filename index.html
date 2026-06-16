@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TTU — Designer & Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">TTU</span>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-tag">Available for projects</div>
+    <h1 class="hero-headline">
+      TTU Crafting digital<br /><em>experiences</em><br />that feel alive.
+    </h1>
+    <p class="hero-sub">Designer & front-end developer based in GHANA. We turn complex ideas into clean, human-centred products.</p>
+    <a href="#work" class="btn-primary">See Our work</a>
+    <div class="hero-scroll-hint" aria-hidden="true">↓</div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <p class="section-eyebrow">Selected Work</p>
+    <div class="cards" id="cards-container">
+      <article class="card" data-index="0">
+        <div class="card-color" style="background:#C8F0DC;"></div>
+        <div class="card-body">
+          <span class="card-tag">Brand + Web</span>
+          <h2 class="card-title">Verdant Studio</h2>
+          <p class="card-desc">Full identity system and marketing site for a sustainable architecture firm.</p>
+        </div>
+      </article>
+      <article class="card" data-index="1">
+        <div class="card-color" style="background:#D4C8F0;"></div>
+        <div class="card-body">
+          <span class="card-tag">Product Design</span>
+          <h2 class="card-title">Luminary App</h2>
+          <p class="card-desc">A journaling app that surfaces patterns in your entries using AI.</p>
+        </div>
+      </article>
+      <article class="card" data-index="2">
+        <div class="card-color" style="background:#F0E8C8;"></div>
+        <div class="card-body">
+          <span class="card-tag">Development</span>
+          <h2 class="card-title">Atlas Dashboard</h2>
+          <p class="card-desc">Real-time analytics platform for independent e-commerce sellers.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about-section" id="about">
+    <p class="section-eyebrow">About</p>
+    <div class="about-grid">
+      <div class="about-portrait">
+        <div class="portrait-placeholder" aria-hidden="true">
+          <span>TTU</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <h2 class="about-heading">We believe good design is<br /><em>honest and inevitable.</em></h2>
+        <p>With over 8 years across agencies and startups, I've helped teams ship products that people actually enjoy using. My background spans visual design, interaction, and front-end engineering — which means I can take something from sketch to pixel to code.</p>
+        <p>When I'm not designing, I'm reading about urban planning, running, or attempting to make great sourdough.</p>
+        <div class="skills-row">
+          <span class="skill-pill">Figma</span>
+          <span class="skill-pill">React</span>
+          <span class="skill-pill">CSS</span>
+          <span class="skill-pill">Motion</span>
+          <span class="skill-pill">Strategy</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <p class="section-eyebrow">Contact</p>
+    <h2 class="contact-heading">Let's make something<br />worth making.</h2>
+    <a href="mailto:hello@oursite.com" class="contact-email" id="email-link">
+      hello@oursite.com
+    </a>
+    <p class="contact-copy-hint" id="copy-hint" aria-live="polite"></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>© 2026 TTU</span>
+    <span>TTU, GH</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
